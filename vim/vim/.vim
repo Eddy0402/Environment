@@ -1,0 +1,1 @@
+/home/eddy/Envirionment/vim/.vim

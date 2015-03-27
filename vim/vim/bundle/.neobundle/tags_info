@@ -1,0 +1,10 @@
+YouCompleteMe
+auto-pairs
+neobundle.vim
+nerdtree
+taglist.vim
+vim-airline
+vim-fugitive
+vim-gitgutter
+vim-nerdtree-tabs
+vimshell
