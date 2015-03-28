@@ -27,9 +27,7 @@ if [ ! -f ~/.NERDTreeBookmarks ]; then
     ln -s `pwd`/vim/NERDTreeBookmarks ~/.NERDTreeBookmarks
 fi
 
-cp ./vim/ycm_client_support.so ./vim/vim/bundle/YouCompleteMe/third_party/ycmd/
-cp ./vim/ycm_core.so ./vim/vim/bundle/YouCompleteMe/third_party/ycmd/
-
+cp -r./vim/ycmd ./vim/vim/bundle/YouCompleteMe/third_party/
 
 # ZSH
 if [ ! -f ~/.zshrc ]; then
