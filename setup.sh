@@ -3,6 +3,7 @@
 cd "${0%/*}"
 
 git submodule init
+git submodule update
 
 # VIM
 if [ ! -f ~/.vimrc ]; then
