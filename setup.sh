@@ -14,6 +14,7 @@ if [ ! -d ~/.vim ]; then
     echo Symlink `pwd`/vim/vim to ~/.vim
     ln -s `pwd`/vim/vim ~/.vim
 fi
+cp -r ./vim/ycmd ./vim/vim/bundle/YouCompleteMe/third_party/
 if ! diff --brief `pwd`/vim/clang_completer.py vim/vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/completers/cpp/clang_completer.py >/dev/null
 then
     echo Patch YoucompleteMe
@@ -28,7 +29,6 @@ if [ ! -f ~/.NERDTreeBookmarks ]; then
     ln -s `pwd`/vim/NERDTreeBookmarks ~/.NERDTreeBookmarks
 fi
 
-cp -r./vim/ycmd ./vim/vim/bundle/YouCompleteMe/third_party/
 
 # ZSH
 if [ ! -f ~/.zshrc ]; then
