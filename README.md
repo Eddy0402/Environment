@@ -1,2 +1,2 @@
-# Envirionment
+# Environment
 Personal linux envirionment settings
