@@ -1,5 +1,8 @@
 #!/bin/sh
+# Ensure the working directory
 cd "${0%/*}"
+
+git submodule init
 
 # VIM
 if [ ! -f ~/.vimrc ]; then
